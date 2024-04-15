@@ -10,17 +10,19 @@ loaderVersion="[36,)"
 license="All rights reserved"
 
 [[mods]] 
-# The ID of your pack.
+# パックのIDを指定します。ここを変更した場合、以下の部分も同一の値に変更します。
+# - MTSOfficialPack\src\main\resources\META-INF\mods.toml:30
+# - MTSOfficialPack\src\main\resources\assets\mtsofficialpack\packdefinition.json:2
 modId="mtsofficialpack"
-# Version number.  Can be whatever format you'd like.
+# バーションを指定します。どのようなフォーマットでも構いません。
 version="V24"
- # Display name for the pack in the in-game mods list.
+# ゲーム内の MOD リストに表示されるパックの名前を指定します。
 displayName="Immersive Vehicles (MTS/IV) - Official Content Pack"
-# A URL for the "homepage" for this pack, displayed in the mod UI.
+# ウェブサイトのURLがあれば記載します。MODの画面に表示されます。
 displayURL="https://www.curseforge.com/minecraft/mc-mods/minecraft-transport-simulator"
-# Pack logo.
+# ロゴ画像の名前を指定します。ex: MTSOfficialPack\src\main\resources\vingette.png
 logoFile="vingette.png"
-# The description text for the pack (multi line!)
+# パックの説明テキスト。複数行可。
 description='''
 A small selection of content made by the core Immersive Vehicles (MTS) team.  This pack aims to show a little of all the things the mod can do, but not focus in any one area too heavily.  A good all-around starter pack.
 
